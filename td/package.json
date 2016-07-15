@@ -1,0 +1,29 @@
+{
+  "name": "torrent-dist-peer",
+  "version": "1.0.0",
+  "description": "Bittorrent distribution of docker container images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewrothstein/torrent-dist-images.git"
+  },
+  "keywords": [
+    "docker",
+    "torrent",
+    "dht"
+  ],
+  "author": "Andrew Rothstein <andrew.rothstein@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewrothstein/torrent-dist-images/issues"
+  },
+  "homepage": "https://github.com/andrewrothstein/torrent-dist-images#readme",
+  "dependencies": {
+    "consul": "^0.25.0",
+    "express": "^4.14.0",
+    "node-etcd": "^5.0.3"
+  }
+}
